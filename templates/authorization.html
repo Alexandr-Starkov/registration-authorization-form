@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../styles/style.css" />
+        <link
+            rel="icon"
+            href="../images/icons8-atlassian-16.png"
+            type="image/png"
+        />
+
+        <title>Atlassian</title>
+    </head>
+    <body>
+        <header>
+            <div class="navigation">
+                <a class="navbar-brand" href="../index.html"></a>
+                <ul class="navigation-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="contact.html">Affiliates</a></li>
+                </ul>
+                <a href="authorization.html" class="entry-button">Login</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="card-container">
+                <div class="card-elements">
+                    <img class="card-brand" src="../images/atlassian.png" alt=""/>
+                
+                    <form id="auth-form" action="/authorization" method="post"> 
+                        <input id="email" 
+                               class="input js-input js-input-email" 
+                               name="email" 
+                               type="text" 
+                               placeholder="Email Address"
+                               data-placeholder="Email Address"/>
+                    
+                        <input id="password" 
+                               class="input js-input js-input-password" 
+                               name="password" 
+                               type="password" 
+                               placeholder="Password"
+                               data-placeholder="Password"/>
+                    
+                        <input class="submit-button" type="submit" value="Login"/>
+                    </form>
+                    <a class="registration-link" href="registration.html">Create an account</a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-elements">
+                <a class="footer-brand" href="../index.html"></a>
+                <div class="social-links">
+                    <a class="footer-x" href=""></a>
+                    <a class="footer-facebook" href=""></a>
+                    <a class="footer-vk"></a>
+                </div>
+                <p class="copyright">Copyright © 2010-2025, SIA "Atlassian"</p>
+            </div>
+        </footer>
+
+        <script src="../scripts/auth-validation.js"></script>
+    </body>
+</html>

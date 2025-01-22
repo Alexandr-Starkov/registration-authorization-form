@@ -1,0 +1,231 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    color: #808080;
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    height: 100vh; /* Высота контейнера — 100% высоты экрана */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between; /* Разделяет элементы по краям */
+    align-items: center;
+    padding: 20px 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/atlassian.png");
+    background-size: contain; /* Масштабировать изображение по контейнеру */
+    background-repeat: no-repeat; /* Избежать повторения */
+    background-position: center; /* Центрировать изображение */
+    margin-left: 80px;
+}
+
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-menu li a {
+    margin-right: 90px;
+    color: #808080;
+}
+
+.navigation-menu li a:hover {
+    color: #83a6e7;
+}
+
+.navigation-menu li a:active {
+    color: #83a6e7;
+}
+
+/* Цвет ссылки при фокусе (например, при клике или при навигации с клавиатуры) */
+.navigation-menu li a:focus {
+    color: #83a6e7; /* Можно использовать тот же цвет, что и при hover */
+}
+
+.entry-button {
+    display: flex;
+    color: #83a6e7;
+    border-style: solid;
+    padding: 8px 16px;
+    border-width: 1px;
+    font-size: 13px;
+    border-radius: .25rem;
+    margin-right: 80px;
+    transition: background-color 0.15s, border-width 0.15s;
+}
+
+.entry-button:active {
+    background-color: #83a6e7;
+    color: white;
+}
+
+
+footer {
+    background-color: #f1f4f5; /* Цвет фона для футера */
+    padding: 30px 0;
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.footer-elements {
+    display: flex;
+    flex-direction: column; /* Размещение элементов вертикально */
+    align-items: center; /* Центрируем все элементы */
+    justify-content: center;
+    padding: 20px 0 20px;
+}
+
+.footer-brand {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-image: url("../images/atlassian.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px; /* Отступ между логотипом и соцсетями */
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Расстояние между ссылками */
+    margin-bottom: 20px; /* Отступ между соцсетями и копирайтом */
+}
+
+.footer-x, .footer-facebook, .footer-vk {
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-x {
+    background-image: url("../images/twitter.png");
+}
+
+.footer-facebook {
+    background-image: url("../images/facebook-app-symbol.png");
+}
+
+.footer-vk {
+    background-image: url("../images/vk-social-network-logo.png");
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #808080;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f4f5;
+}
+
+.card-container {
+    background-color: white;
+    height: 510px;
+    width: 426px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-brand {
+    width: 50px; /* Фиксированная ширина */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    max-height: 79px; /* Ограничиваем максимальную высоту */
+    object-fit: contain; /* Масштабируем изображение без искажений */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.card-elements form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px; /* Добавляем отступы между элементами */
+}
+
+
+.input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Устанавливаем ширину поля */
+    box-sizing: border-box; /* Включаем padding в расчёт ширины */
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #83a6e7;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.submit-button:hover {
+    background-color: #6a8bc1;
+}
+
+.registration-link, .authorization-link {
+    margin-top: 20px;
+    color: #83a6e7;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.registration-link:hover {
+    text-decoration: underline;
+}
+
+.authorization-link:hover {
+    text-decoration: underline;    
+}
+
+.registration-msg {
+    text-align: left;
+    font-size: larger;
+}
+
+/* Стили для ошибок */
+.error {
+    border: 1px solid red;
+    color: red;
+}
+
+input.error {
+    border-color: red;
+}
+
+input.error::placeholder {
+    color: red;
+}

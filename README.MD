@@ -104,8 +104,8 @@
  - Добавить JWT-токены для авторизации.
 
 ## Контакты
-Автор проекта: Алекснадр Старков
-GitHub Тестирование: https://github.com/Alexandr-StarkovJr
-Google Docks с проектами по тестированию - https://drive.google.com/drive/folders/1Tcj648y9MdwFNRL-OTrIGNK_voaMA1WK?usp=drive_link
-Telegram: https://t.me/AlexStarkJr
-Email: a.starkovjr@gmail.com
+ - Автор проекта: Алекснадр Старков  
+ - GitHub Тестирование: https://github.com/Alexandr-StarkovJr  
+ - Google Docks с проектами по тестированию - https://drive.google.com/drive/folders/1Tcj648y9MdwFNRL-OTrIGNK_voaMA1WK?usp=drive_link  
+ - Telegram: https://t.me/AlexStarkJr  
+ - Email: a.starkovjr@gmail.com  

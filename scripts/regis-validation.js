@@ -90,7 +90,7 @@ form.onsubmit = async function (event) {
         inputPassword.classList.add("error");
         inputPassword.value = '';  
         inputPassword.style.color = 'red';
-        inputPassword.placeholder = "Нет цифры и буквы";
+        inputPassword.placeholder = "Нет цифры или буквы";
         isValid = false;
     }
 
